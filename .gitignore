@@ -1,0 +1,12 @@
+﻿target/
+build/
+.idea/
+*.iml
+.vscode/
+.env
+*.log
+*.jks
+*.p12
+*.pem
+*.key
+application-local.*
