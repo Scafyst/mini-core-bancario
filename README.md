@@ -1,30 +1,34 @@
-﻿# Mini Core Bancario
+﻿# Mini Core Banking
 
-API REST de cuentas y transferencias desarrollada con **Java 21** y **Spring Boot 3**.
+REST API for accounts and money transfers, built with **Java 21** and **Spring Boot 3**.
 
-> Proyecto en desarrollo. Todos los datos son ficticios.
+> Work in progress. All data is fictional.
 
-## Objetivo
+## Goal
 
-Practicar y mostrar los fundamentos de un sistema bancario:
+Practice the fundamentals of a banking backend:
 
-- Transacciones atómicas y control de concurrencia
-- Libro mayor de doble entrada
-- Idempotencia en transferencias
-- Auditoría de operaciones
-- Seguridad con Spring Security y JWT
-- Pruebas unitarias y de integración (JUnit, Mockito, Testcontainers)
-- Migraciones con Flyway, Docker Compose y CI con GitHub Actions
+- Atomic transactions and concurrency control
+- Double-entry ledger
+- Idempotent transfers
+- Audit trail
+- Security with Spring Security and JWT
+- Unit and integration tests (JUnit, Mockito, Testcontainers)
+- Flyway migrations, Docker Compose and CI with GitHub Actions
 
-## Stack previsto
+## Planned stack
 
 Java 21 · Spring Boot 3 · Spring Data JPA · PostgreSQL · Flyway · Docker · GitHub Actions
 
-## Estado
+## Status
 
-- [ ] Estructura del proyecto
-- [ ] Modelo de datos y migraciones
-- [ ] Cuentas y movimientos
-- [ ] Transferencias atómicas e idempotentes
-- [ ] Autenticación y roles
-- [ ] Pruebas e integración continua
+- [ ] Project setup
+- [ ] Data model and migrations
+- [ ] Accounts and transactions
+- [ ] Atomic, idempotent transfers
+- [ ] Authentication and roles
+- [ ] Tests and continuous integration
+
+---
+
+**En español:** API REST de cuentas y transferencias con Java 21 y Spring Boot 3. Proyecto en desarrollo con datos ficticios.
